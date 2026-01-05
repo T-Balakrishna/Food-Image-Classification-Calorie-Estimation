@@ -30,4 +30,8 @@ Includes image samples and corresponding calorie values for multiple food catego
 
 ## 🧩 Future Improvements
 - Add mobile integration for real-time food recognition  
-- Expand dataset with localized cuisines for broader accuracy  
+- Expand dataset with localized cuisines for broader accuracy
+
+## 🧑‍💻 Author
+<strong>Balakrishna T</strong><br>
+💼 [GitHub](https://github.com/T-Balakrishna) • 🌐 [Portfolio](https://balakrishnat.vercel.app) • ✉️ [Email](https://mail.google.com/mail/?view=cm&to=tbalakrishna2005@gmail.com)  
