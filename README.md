@@ -1,37 +1,61 @@
-# 🍔 Food Image Classification & Calorie Estimation
+# Food Image Classification and Calorie Estimation
 
-## 📘 Overview
-This project combines **deep learning** with computer vision to classify food items and estimate their calorie content. It aims to assist users in managing dietary intake through image-based analysis.
+## Description
 
-## 🧠 Objective
-To build an intelligent system that classifies food categories from images and provides approximate calorie values for each item.
+This project combines deep learning and computer vision techniques to classify food items from images and estimate their calorie content. The system is designed to support dietary monitoring through image-based analysis.
 
-## 📊 Dataset
-Dataset used: [NutritionVerse Real Dataset (Kaggle)](https://www.kaggle.com/datasets/nutritionverse/nutritionverse-real)
+## Objective
 
-Includes image samples and corresponding calorie values for multiple food categories.
+To develop an intelligent model that identifies food categories from images and predicts approximate calorie values for each item.
 
-## ⚙️ Tech Stack
-- **Python:** TensorFlow, Keras, OpenCV, PIL, NumPy, Pandas  
-- **Model:** CNN-based deep learning architecture  
-- **IDE:** Jupyter Notebook  
+## Dataset
 
-## 🚀 Workflow
-1. Data preprocessing and image augmentation  
-2. CNN model design and compilation  
-3. Model training and validation  
-4. Calorie estimation using regression mapping  
-5. Visualization of predictions and accuracy metrics  
+Source: Kaggle – NutritionVerse Real Dataset
+[https://www.kaggle.com/datasets/nutritionverse/nutritionverse-real](https://www.kaggle.com/datasets/nutritionverse/nutritionverse-real)
 
+The dataset includes food images along with corresponding calorie information across multiple categories.
 
-## 📈 Results
-- Accurate classification across multiple food categories  
-- Calorie predictions close to expected nutritional values  
+## Workflow
 
-## 🧩 Future Improvements
-- Add mobile integration for real-time food recognition  
-- Expand dataset with localized cuisines for broader accuracy
+* Data preprocessing and image augmentation
+* CNN model architecture design and compilation
+* Model training and validation
+* Calorie estimation using regression-based mapping
+* Visualization of predictions and evaluation metrics
 
-## 🧑‍💻 Author
-<strong>Balakrishna T</strong><br>
-💼 [GitHub](https://github.com/T-Balakrishna) • 🌐 [Portfolio](https://balakrishnat.vercel.app) • ✉️ [Email](https://mail.google.com/mail/?view=cm&to=tbalakrishna2005@gmail.com)  
+## How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
+2. Install required dependencies:
+
+   ```bash
+   pip install tensorflow keras numpy pandas opencv-python pillow matplotlib
+   ```
+3. Download the dataset from Kaggle and place it in the project directory.
+4. Launch Jupyter Notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+5. Open the notebook and run all cells sequentially to train the model and generate predictions.
+
+## Results
+
+The model achieved accurate food classification across multiple categories, with calorie estimates close to expected nutritional values.
+
+## Tech Stack
+
+* Python (TensorFlow, Keras, NumPy, Pandas)
+* OpenCV, PIL
+* CNN-based deep learning model
+* Jupyter Notebook
+
+## Future Enhancements
+
+* Mobile integration for real-time food recognition
+* Expansion of the dataset with regional and localized cuisines
